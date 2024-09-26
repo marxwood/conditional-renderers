@@ -1,5 +1,6 @@
 # Conditional Renderers
-```<conditional>
+```bash
+<conditional>
     <if user-is-authenticated>
         <if user-is-admin>
             <switch>
@@ -24,7 +25,8 @@
 If a user by the name John Doe is authenticated and has an admin role, and if the time is morning (03h-12h) the engine should render:
 Good morning John Doe.
 
-```<conditional>
+```bash
+<conditional>
     <if user-is-authenticated>
         <if items-exist>
             <render>
@@ -76,7 +78,8 @@ If HTML is broken it will gracefully continue.
 
 # Ideas for server-side flow control based on conditions and other specific features like validating, saving, etc.
 
-```<flow>
+```bash
+<flow>
     <validate></validate>
     <save></save>
     <render></render>
