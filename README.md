@@ -20,7 +20,8 @@
     <else>
         <render>Permisson denied</render>
     </else>
-</conditional>```
+</conditional>
+```
 
 If a user by the name John Doe is authenticated and has an admin role, and if the time is morning (03h-12h) the engine should render:
 Good morning John Doe.
@@ -44,7 +45,8 @@ Good morning John Doe.
     <else>
         <render>Permisson denied</render>
     </else>
-</conditional>```
+</conditional>
+```
 
 ## Tags
 
