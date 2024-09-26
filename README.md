@@ -78,7 +78,7 @@ Thus, each `<render>` contained inside the conditional block that validates will
 
 If HTML is broken it will gracefully continue.
 
-# Ideas for server-side flow control based on conditions and other specific features like validating, saving, etc.
+# Server-side flow control
 
 ```bash
 <flow>
